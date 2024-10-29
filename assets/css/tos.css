@@ -1,0 +1,11 @@
+nav.woocommerce-breadcrumb {
+    display: none;
+}
+.site-header {
+    border-bottom-color: #f0f0f0;
+    BACKGROUND-COLOR: WHITE;
+  }
+.storefront-breadcrumb {
+  margin:0px;
+  padding:5px;
+}

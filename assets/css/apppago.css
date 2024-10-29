@@ -1,0 +1,187 @@
+﻿/**
+ * Plugin Name: APPpago
+ * Plugin URI:
+ * Description: Official APPpago plugin.
+ * Version: 1.0.6
+ * Author: SmallPay Srl
+ * Author URI: SmallPay Srl
+ * Text Domain: apppago
+ * Domain Path: /lang
+ *
+ * Copyright: © 2021-2022, SmallPay Srl
+ * License: GNU General Public License v3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+#order_xpay{
+    padding: 23px 24px 12px;
+}
+
+#order_xpay_details h2 {
+    margin: 0;
+    font-family: HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px #fff;
+    padding: 0;
+}
+
+#order_xpay_details .order_data_column_container {
+    clear: both;
+    display: flex;
+}
+
+#order_xpay_details .order_data_column {
+    width: 32%;
+    padding: 0 2% 0 0;
+    float: left;
+    height: 200px;
+}
+
+#order_xpay_details .order_data_column p {
+    padding: 0 !important;
+}
+
+#order_xpay_details p {
+    color: #777;
+}
+
+.stylePreview *, .stylePreview :after, .stylePreview :before {
+    box-sizing: border-box;
+}
+
+.stylePreview :focus {
+    outline: none
+}
+
+.stylePreview body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    top: 0px;
+    left: 0px
+}
+
+.stylePreview .Bricks {
+    display: inline-block;
+    width: 100%;
+    max-width: 530px;
+    height: 32px;
+    border: 1px solid #d6d4d4;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.stylePreview .Bricks, .Bricks>* {
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    top: 0;
+    line-height: 1.2em;
+}
+
+.stylePreview input {
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    height: 1.2em;
+    box-shadow: none;
+}
+
+.stylePreview .placePan{
+    display:inline-block;
+    left: 0
+}
+
+.stylePreview .placeExp{
+    display:inline-block;
+    right: 55px
+}
+
+.stylePreview .placeCvv {
+    display:inline-block;
+    right: 0
+}
+
+.stylePreview .input-container {
+    position: relative;
+}
+
+.stylePreview .input-container input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#payment .payment_methods li.wc_payment_method img {
+    max-width: 120px;
+}
+
+#payment .payment_methods #xpay_list_icon img {
+    max-width: none;
+}
+
+table.woocommerce-checkout-review-order-table.apppago-table .product-name.apppago-installment,
+table.woocommerce-checkout-review-order-table.apppago-table .product-name.apppago-date,
+table.woocommerce-checkout-review-order-table.apppago-table .product-total.apppago-amount,
+table.woocommerce-checkout-review-order-table.apppago-table .product-name.apppago-total {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    display: table-cell;
+}
+
+table.woocommerce-checkout-review-order-table.apppago-table .product-name.apppago-installment {
+    width: 40%;
+}
+
+table.woocommerce-checkout-review-order-table.apppago-table .product-name.apppago-date {
+    width: 30%;
+}
+table.woocommerce-checkout-review-order-table.apppago-table .product-total.apppago-amount {
+    width: 30%;
+    white-space: nowrap;
+}
+
+table.woocommerce-checkout-review-order-table.apppago-table .product-name.apppago-total {
+    width: 40%;
+    text-align: left;
+    font-weight:bold;
+}
+
+#payment .payment_methods li p.apppago-select,
+.entry-content p.apppago-select{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.apppago-p-size{
+    font-size: 16px;
+}
+
+#order_review .shop_table.apppago-table{
+    margin-bottom: 1em;
+    font-size: 16px;
+}
+
+#payment .payment_methods li p.apppago-p-confirm{
+    margin-bottom: 1.5em;
+    font-size: 16px;
+}
+
+.apppago-card{
+    max-width: 420px;
+}
+
+#apppago-installments-number-title {
+    display: inline; 
+    margin-right: 20px;
+}
